@@ -1,0 +1,20 @@
+{
+  "name": "blocky",
+  "version": "1.0.0",
+  "description": "A simple JS block pusher game",
+  "main": "main.js",
+  "author": "Daniel Jackson",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build":"webpack",
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "webpack": "^4.17.1",
+    "webpack-dev-server": "^3.1.6"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.0"
+  }
+}
